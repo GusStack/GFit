@@ -1,0 +1,58 @@
+[
+  {
+    "id": "air-squat",
+    "name": "Air Squat",
+    "type": "strength",
+    "muscles_primary": [
+      "quads",
+      "glutes"
+    ],
+    "equipment": [],
+    "cues": [
+      "Knees track over toes",
+      "Chest up"
+    ]
+  },
+  {
+    "id": "pushup",
+    "name": "Push\u2011Ups",
+    "type": "strength",
+    "muscles_primary": [
+      "chest",
+      "triceps"
+    ],
+    "equipment": [],
+    "cues": [
+      "Brace core",
+      "Elbows ~45\u00b0"
+    ]
+  },
+  {
+    "id": "burpee",
+    "name": "Burpee (no push\u2011up)",
+    "type": "hiit",
+    "muscles_primary": [
+      "full_body"
+    ],
+    "equipment": [],
+    "cues": [
+      "Land softly",
+      "Keep breathing"
+    ]
+  },
+  {
+    "id": "kb-swing",
+    "name": "Kettlebell Swing",
+    "type": "hiit",
+    "muscles_primary": [
+      "posterior_chain"
+    ],
+    "equipment": [
+      "kettlebell"
+    ],
+    "cues": [
+      "Hinge, not squat",
+      "Snap hips"
+    ]
+  }
+]
