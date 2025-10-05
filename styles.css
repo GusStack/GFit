@@ -30,3 +30,14 @@ nav a:hover{color:var(--text)}
 .kbd{font-family:ui-monospace, SFMono-Regular, Menlo, monospace;background:#111827;border:1px solid #1f2937;padding:2px 6px;border-radius:6px}
 .app-footer{padding:16px;color:#9ca3af;text-align:center;border-top:1px solid #1f2937}
 .hidden{display:none}
+.plan-list{list-style:none;padding:0;margin:12px 0 0;display:flex;flex-direction:column;gap:8px}
+.plan-item{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#0b1021;border:1px solid #1f2937;border-radius:12px;padding:12px}
+.plan-item .item-title{font-weight:600}
+.plan-item.active{border-color:var(--accent);box-shadow:0 0 0 2px rgba(96,165,250,0.25)}
+.plan-list .empty{padding:12px;border:1px dashed #1f2937;border-radius:12px}
+.empty{color:var(--muted);font-style:italic}
+.current-callout{margin:12px 0;font-size:18px;font-weight:600}
+.current-callout.resting{color:var(--accent)}
+.current-callout.complete{color:var(--ok)}
+.cues-list{list-style:disc;padding-left:20px;margin:8px 0 0;color:var(--muted)}
+.cues-list li{margin-bottom:4px}
